@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+body{
+    font-family: "Skranji", system-ui;
+}
+main{
+    height: 100vh;
+    border: 1px solid;
+    display: flex;
+}
+
+.backgroundOverlay{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 30%;
+    background-color: rgba(10, 10, 10, 0.514);
+    padding: 15px;
+    height: fit-content;
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+}
+.logoName{
+    font-size: 3rem;
+    color: white;
+    
+}
+
+.rightImage{
+    border: 1px solid black;
+    width: 50%;
+    height: 100vh;
+    background-image: url(./assets/background.jpg);
+}
+
+.formDetails{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-size: 1.3rem;
+    background-color: #F9FAFB;
+}
+
+.formDiscription{
+    padding: 50px;
+}
+
+.formArea{
+    background-color: white;
+    height: 500px;
+    padding: 20px;
+}
+.formFields{
+    display: flex;
+    justify-content: flex-start;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.submitBtn {
+    padding: 30px;
+}
+
+.submitBtn button{
+    padding: 10px;
+    background-color: rgb(38, 170, 126);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 150px;
+}
+input{
+    width: 200px;
+    padding: 10px;
+}
+
+.oneCell{
+    margin: 5px;
+}
